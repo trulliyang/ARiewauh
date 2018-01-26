@@ -1,0 +1,134 @@
+
+{
+	"buildFiles" : [ "/Users/admin/Downloads/huaweiARdemo/app/CMakeLists.txt" ],
+	"cleanCommands" : 
+	[
+		"/Users/admin/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/admin/Downloads/huaweiARdemo/app/.externalNativeBuild/cmake/release/arm64-v8a --target clean"
+	],
+	"cppFileExtensions" : [ "cpp" ],
+	"libraries" : 
+	{
+		"HSLPreProcessing-Release-arm64-v8a" : 
+		{
+			"abi" : "arm64-v8a",
+			"artifactName" : "HSLPreProcessing",
+			"buildType" : "release",
+			"output" : "/Users/admin/Downloads/huaweiARdemo/app/distribution/huaweiAR/arm64-v8a/libHSLPreProcessing.so",
+			"toolchain" : "7902362879982753818"
+		},
+		"Idepthservice-Release-arm64-v8a" : 
+		{
+			"abi" : "arm64-v8a",
+			"artifactName" : "Idepthservice",
+			"buildType" : "release",
+			"output" : "/Users/admin/Downloads/huaweiARdemo/app/distribution/huaweiAR/arm64-v8a/libIdepthservice.so",
+			"toolchain" : "7902362879982753818"
+		},
+		"arcamera-Release-arm64-v8a" : 
+		{
+			"abi" : "arm64-v8a",
+			"artifactName" : "arcamera",
+			"buildType" : "release",
+			"output" : "/Users/admin/Downloads/huaweiARdemo/app/distribution/huaweiAR/arm64-v8a/libarcamera.so",
+			"toolchain" : "7902362879982753818"
+		},
+		"dfu-Release-arm64-v8a" : 
+		{
+			"abi" : "arm64-v8a",
+			"artifactName" : "dfu",
+			"buildType" : "release",
+			"output" : "/Users/admin/Downloads/huaweiARdemo/app/distribution/huaweiAR/arm64-v8a/libdfu.so",
+			"toolchain" : "7902362879982753818"
+		},
+		"engine-Release-arm64-v8a" : 
+		{
+			"abi" : "arm64-v8a",
+			"artifactName" : "engine",
+			"buildCommand" : "/Users/admin/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/admin/Downloads/huaweiARdemo/app/.externalNativeBuild/cmake/release/arm64-v8a --target engine",
+			"buildType" : "release",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android --gcc-toolchain=/Users/admin/Library/Android/sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/admin/Library/Android/sdk/ndk-bundle/sysroot  -Dengine_EXPORTS -I../../../../distribution/huaweiAR/include -isystem /Users/admin/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/admin/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/arm64-v8a/include -isystem /Users/admin/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -isystem /Users/admin/Library/Android/sdk/ndk-bundle/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++11 -frtti -fexceptions -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/admin/Downloads/huaweiARdemo/app/src/main/cpp/fmDrawer.cpp",
+					"workingDirectory" : "/Users/admin/Downloads/huaweiARdemo/app/.externalNativeBuild/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android --gcc-toolchain=/Users/admin/Library/Android/sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/admin/Library/Android/sdk/ndk-bundle/sysroot  -Dengine_EXPORTS -I../../../../distribution/huaweiAR/include -isystem /Users/admin/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/admin/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/arm64-v8a/include -isystem /Users/admin/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -isystem /Users/admin/Library/Android/sdk/ndk-bundle/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++11 -frtti -fexceptions -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/admin/Downloads/huaweiARdemo/app/src/main/cpp/fmDrawerGray.cpp",
+					"workingDirectory" : "/Users/admin/Downloads/huaweiARdemo/app/.externalNativeBuild/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android --gcc-toolchain=/Users/admin/Library/Android/sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/admin/Library/Android/sdk/ndk-bundle/sysroot  -Dengine_EXPORTS -I../../../../distribution/huaweiAR/include -isystem /Users/admin/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/admin/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/arm64-v8a/include -isystem /Users/admin/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -isystem /Users/admin/Library/Android/sdk/ndk-bundle/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++11 -frtti -fexceptions -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/admin/Downloads/huaweiARdemo/app/src/main/cpp/fmDrawerPoints.cpp",
+					"workingDirectory" : "/Users/admin/Downloads/huaweiARdemo/app/.externalNativeBuild/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android --gcc-toolchain=/Users/admin/Library/Android/sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/admin/Library/Android/sdk/ndk-bundle/sysroot  -Dengine_EXPORTS -I../../../../distribution/huaweiAR/include -isystem /Users/admin/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/admin/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/arm64-v8a/include -isystem /Users/admin/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -isystem /Users/admin/Library/Android/sdk/ndk-bundle/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++11 -frtti -fexceptions -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/admin/Downloads/huaweiARdemo/app/src/main/cpp/fmDrawerYUV.cpp",
+					"workingDirectory" : "/Users/admin/Downloads/huaweiARdemo/app/.externalNativeBuild/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android --gcc-toolchain=/Users/admin/Library/Android/sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/admin/Library/Android/sdk/ndk-bundle/sysroot  -Dengine_EXPORTS -I../../../../distribution/huaweiAR/include -isystem /Users/admin/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/admin/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/arm64-v8a/include -isystem /Users/admin/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -isystem /Users/admin/Library/Android/sdk/ndk-bundle/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++11 -frtti -fexceptions -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/admin/Downloads/huaweiARdemo/app/src/main/cpp/fmEngine.cpp",
+					"workingDirectory" : "/Users/admin/Downloads/huaweiARdemo/app/.externalNativeBuild/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android --gcc-toolchain=/Users/admin/Library/Android/sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/admin/Library/Android/sdk/ndk-bundle/sysroot  -Dengine_EXPORTS -I../../../../distribution/huaweiAR/include -isystem /Users/admin/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/admin/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/arm64-v8a/include -isystem /Users/admin/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -isystem /Users/admin/Library/Android/sdk/ndk-bundle/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++11 -frtti -fexceptions -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/admin/Downloads/huaweiARdemo/app/src/main/cpp/fmProgram.cpp",
+					"workingDirectory" : "/Users/admin/Downloads/huaweiARdemo/app/.externalNativeBuild/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android --gcc-toolchain=/Users/admin/Library/Android/sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/admin/Library/Android/sdk/ndk-bundle/sysroot  -Dengine_EXPORTS -I../../../../distribution/huaweiAR/include -isystem /Users/admin/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/admin/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/arm64-v8a/include -isystem /Users/admin/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -isystem /Users/admin/Library/Android/sdk/ndk-bundle/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++11 -frtti -fexceptions -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/admin/Downloads/huaweiARdemo/app/src/main/cpp/fmShaderLoader.cpp",
+					"workingDirectory" : "/Users/admin/Downloads/huaweiARdemo/app/.externalNativeBuild/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android --gcc-toolchain=/Users/admin/Library/Android/sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/admin/Library/Android/sdk/ndk-bundle/sysroot  -Dengine_EXPORTS -I../../../../distribution/huaweiAR/include -isystem /Users/admin/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/admin/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/arm64-v8a/include -isystem /Users/admin/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -isystem /Users/admin/Library/Android/sdk/ndk-bundle/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++11 -frtti -fexceptions -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/admin/Downloads/huaweiARdemo/app/src/main/cpp/fmSharedGLContext.cpp",
+					"workingDirectory" : "/Users/admin/Downloads/huaweiARdemo/app/.externalNativeBuild/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android --gcc-toolchain=/Users/admin/Library/Android/sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/admin/Library/Android/sdk/ndk-bundle/sysroot  -Dengine_EXPORTS -I../../../../distribution/huaweiAR/include -isystem /Users/admin/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/admin/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/arm64-v8a/include -isystem /Users/admin/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -isystem /Users/admin/Library/Android/sdk/ndk-bundle/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++11 -frtti -fexceptions -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/admin/Downloads/huaweiARdemo/app/src/main/cpp/fmSharedGLContextWrapper.cpp",
+					"workingDirectory" : "/Users/admin/Downloads/huaweiARdemo/app/.externalNativeBuild/cmake/release/arm64-v8a"
+				}
+			],
+			"output" : "/Users/admin/Downloads/huaweiARdemo/jniLibs/arm64-v8a/libengine.so",
+			"toolchain" : "7902362879982753818"
+		},
+		"slaccuracy-Release-arm64-v8a" : 
+		{
+			"abi" : "arm64-v8a",
+			"artifactName" : "slaccuracy",
+			"buildType" : "release",
+			"output" : "/Users/admin/Downloads/huaweiARdemo/app/distribution/huaweiAR/arm64-v8a/libslaccuracy.so",
+			"toolchain" : "7902362879982753818"
+		},
+		"usb100-Release-arm64-v8a" : 
+		{
+			"abi" : "arm64-v8a",
+			"artifactName" : "usb100",
+			"buildType" : "release",
+			"output" : "/Users/admin/Downloads/huaweiARdemo/app/distribution/huaweiAR/arm64-v8a/libusb100.so",
+			"toolchain" : "7902362879982753818"
+		}
+	},
+	"toolchains" : 
+	{
+		"7902362879982753818" : 
+		{
+			"cCompilerExecutable" : "/Users/admin/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang",
+			"cppCompilerExecutable" : "/Users/admin/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++"
+		}
+	}
+}

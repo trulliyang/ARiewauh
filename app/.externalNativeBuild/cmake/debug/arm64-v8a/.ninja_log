@@ -1,0 +1,20 @@
+# ninja log v5
+3	124	0	CMakeFiles/engine.dir/src/main/cpp/fmShaderLoader.cpp.o	2123317b8c652b2f
+2	128	0	CMakeFiles/engine.dir/src/main/cpp/fmProgram.cpp.o	6fb975efb446df7a
+3	142	0	CMakeFiles/engine.dir/src/main/cpp/fmSharedGLContext.cpp.o	67ad45a556aa1cf9
+2	271	0	CMakeFiles/engine.dir/src/main/cpp/fmDrawerYUV.cpp.o	f002465ac84f5430
+1	272	0	CMakeFiles/engine.dir/src/main/cpp/fmDrawerGray.cpp.o	6d1fda94dd98c7c7
+0	274	0	CMakeFiles/engine.dir/src/main/cpp/fmDrawer.cpp.o	a0135e7cbb3ca38
+4	278	0	CMakeFiles/engine.dir/src/main/cpp/fmSharedGLContextWrapper.cpp.o	f923f05287b3884a
+1	280	0	CMakeFiles/engine.dir/src/main/cpp/fmDrawerPoints.cpp.o	9705f753cb1942c
+2	287	0	CMakeFiles/engine.dir/src/main/cpp/fmEngine.cpp.o	4db9df356170ed44
+287	328	0	/Users/admin/Downloads/huaweiARdemo/jniLibs/arm64-v8a/libengine.so	4d2322cd6cee70aa
+2	184	0	CMakeFiles/engine.dir/src/main/cpp/fmSharedGLContextWrapper.cpp.o	f923f05287b3884a
+1	194	0	CMakeFiles/engine.dir/src/main/cpp/fmEngine.cpp.o	4db9df356170ed44
+194	240	0	/Users/admin/Downloads/huaweiARdemo/jniLibs/arm64-v8a/libengine.so	4d2322cd6cee70aa
+1	220	0	CMakeFiles/engine.dir/src/main/cpp/fmEngine.cpp.o	4db9df356170ed44
+220	267	0	/Users/admin/Downloads/huaweiARdemo/jniLibs/arm64-v8a/libengine.so	4d2322cd6cee70aa
+1	183	0	CMakeFiles/engine.dir/src/main/cpp/fmEngine.cpp.o	4db9df356170ed44
+183	228	0	/Users/admin/Downloads/huaweiARdemo/jniLibs/arm64-v8a/libengine.so	4d2322cd6cee70aa
+1	186	0	CMakeFiles/engine.dir/src/main/cpp/fmEngine.cpp.o	4db9df356170ed44
+186	245	0	/Users/admin/Downloads/huaweiARdemo/jniLibs/arm64-v8a/libengine.so	4d2322cd6cee70aa

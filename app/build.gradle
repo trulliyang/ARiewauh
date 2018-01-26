@@ -1,0 +1,66 @@
+apply plugin: 'com.android.application'
+android {
+    signingConfigs {
+        aaaaa {
+            keyAlias 'zuoxiong'
+            keyPassword 'zuoxiong'
+            storeFile file('zuoxiong.jks')
+            storePassword 'zuoxiong'
+        }
+    }
+    compileSdkVersion 25
+    buildToolsVersion "25.0.2"
+    defaultConfig {
+        applicationId "com.appmagics.demo"
+        minSdkVersion 15
+        targetSdkVersion 25
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        externalNativeBuild {
+            cmake {
+                cppFlags "-std=c++11 -frtti -fexceptions"
+                abiFilters "arm64-v8a"
+                arguments '-DANDROID_PLATFORM=android-16',
+                        '-DANDROID_TOOLCHAIN=clang', '-DANDROID_STL=gnustl_static'
+            }
+        }
+    }
+    sourceSets {
+        main {
+            jniLibs.srcDirs = ['distribution/huaweiAR']
+            jni.srcDirs = []
+        }
+    }
+
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            signingConfig signingConfigs.aaaaa
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+        debug {
+//            signingConfig signingConfigs.aaaaa
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    externalNativeBuild {
+        cmake {
+            path "CMakeLists.txt"
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile files('libs/hwcamera2ex.jar')
+    compile files('libs/hwservicehost_intf.jar')
+    compile files('libs/OpenCamera.jar')
+    compile files('libs/ArCamera.jar')
+    compile files('libs/ArJni.jar')
+    compile files('libs/FaceReconstruct.jar')
+    compile files('libs/LibUpdateClient.jar')
+    compile files('libs/unity-classes.jar')
+}

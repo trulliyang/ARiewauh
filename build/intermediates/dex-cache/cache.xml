@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Users/admin/Downloads/huaweiARdemo/app/libs/LibUpdateClient.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="cf20923ff45c2eae2fa57f3569a581588e1eed73">
+        <dex dex="/Users/admin/Downloads/huaweiARdemo/app/build/intermediates/pre-dexed/debug/LibUpdateClient_3dd6067b02b6b0dc237910684cc8fac4844f2963.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/admin/Downloads/huaweiARdemo/app/libs/FaceReconstruct.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="936975193c57b81f5840b1b0d122a5e775e2e6a6">
+        <dex dex="/Users/admin/Downloads/huaweiARdemo/app/build/intermediates/pre-dexed/debug/FaceReconstruct_f1cfc31668425f18a6a2e94c2a1a20a694c3d899.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/admin/Downloads/huaweiARdemo/app/libs/ArJni.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="50a21e82ace4e02468f9a6cdb0cb540517c209f7">
+        <dex dex="/Users/admin/Downloads/huaweiARdemo/app/build/intermediates/pre-dexed/debug/ArJni_f8f7dc4bb37430d18ddc0c03d92fbdb678fe2dcc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/admin/Downloads/huaweiARdemo/app/libs/unity-classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="93fa9a51dbd4f87bb42ef88062eb2deb4ff62c23">
+        <dex dex="/Users/admin/Downloads/huaweiARdemo/app/build/intermediates/pre-dexed/debug/unity-classes_f44bdcf7b2fd99d6fa3d66b025aa206a8d953799.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/admin/Downloads/huaweiARdemo/app/libs/ArCamera.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="bce1e258273b0ac48c9620ead305e310aa79e3ec">
+        <dex dex="/Users/admin/Downloads/huaweiARdemo/app/build/intermediates/pre-dexed/debug/ArCamera_35c4ac01a384b572f86fc7e8851f1e5f090eba13.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/admin/Downloads/huaweiARdemo/app/libs/hwservicehost_intf.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="5af1b02dc628fd7d225019cd8d5583b331f80f35">
+        <dex dex="/Users/admin/Downloads/huaweiARdemo/app/build/intermediates/pre-dexed/debug/hwservicehost_intf_98cfc9f8fff3d2677be5621baf4c6693728d3217.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/admin/Downloads/huaweiARdemo/app/libs/hwcamera2ex.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8835877ea67c18907a345bdce5fd3c5b6122efec">
+        <dex dex="/Users/admin/Downloads/huaweiARdemo/app/build/intermediates/pre-dexed/debug/hwcamera2ex_ecc318c4810f18727a59bbea77a0654146121842.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/admin/Downloads/huaweiARdemo/app/libs/OpenCamera.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="7ab049b2ec3244c2e6b8c0f4ce0bf56eab2fc709">
+        <dex dex="/Users/admin/Downloads/huaweiARdemo/app/build/intermediates/pre-dexed/debug/OpenCamera_ce27933c79cc6e1b6a842ec8cb25fe310e77935a.jar" />
+    </item>
+
+</items>

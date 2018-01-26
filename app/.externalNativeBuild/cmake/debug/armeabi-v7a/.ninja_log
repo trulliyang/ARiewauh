@@ -1,0 +1,10 @@
+# ninja log v5
+2	155	0	CMakeFiles/engine.dir/src/main/cpp/fmProgram.cpp.o	8e0aed7a34c28d99
+4	174	0	CMakeFiles/engine.dir/src/main/cpp/fmSharedGLContext.cpp.o	1f21de35d6bf6127
+3	275	0	CMakeFiles/engine.dir/src/main/cpp/fmShaderLoader.cpp.o	6a7e2ddd234c213a
+5	320	0	CMakeFiles/engine.dir/src/main/cpp/fmSharedGLContextWrapper.cpp.o	8c9b66426ab45e69
+1	337	0	CMakeFiles/engine.dir/src/main/cpp/fmDrawerPoints.cpp.o	45c61a6d10458839
+0	434	0	CMakeFiles/engine.dir/src/main/cpp/fmDrawer.cpp.o	69f12439d8db00ec
+0	435	0	CMakeFiles/engine.dir/src/main/cpp/fmDrawerGray.cpp.o	e5857937fb0bf3ce
+1	508	0	CMakeFiles/engine.dir/src/main/cpp/fmEngine.cpp.o	3377e49267812296
+508	581	0	/Users/admin/Downloads/huaweiARdemo/jniLibs/armeabi-v7a/libengine.so	963b2a0d9c03c46e
